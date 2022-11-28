@@ -1,6 +1,5 @@
 def tomcatServerUrl = "http://localhost:8080/"
 pipeline {
-pipeline {
   agent {
   }
   stages {
