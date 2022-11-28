@@ -1,6 +1,9 @@
 def tomcatServerUrl = "http://localhost:8080/"
 pipeline {
   agent {
+     node {
+  	any
+     }
   }
   stages {
     //Use this code for inline pipeline script option
