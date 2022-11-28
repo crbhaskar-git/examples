@@ -23,7 +23,7 @@ pipeline {
       steps {
         //deploy war on tomcat server
         deploy adapters: [tomcat9(url: "${tomcatServerUrl}",
-            credentialsId: 'tomee administrator userid')],
+            credentialsId: 'tomee-admin-userid')],
           war: 'target/*.war',
           contextPath: 'pipeline-tomcat'
 
