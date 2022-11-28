@@ -2,7 +2,7 @@ def tomcatServerUrl = "http://localhost:8080/"
 pipeline {
   agent {
      node {
-  	any
+  	label 'none'
      }
   }
   stages {
